@@ -5,4 +5,10 @@ cd ..
 catkin_make
 
 ##How to run
+###1. run nodelet
 roslaunch sample_subscriber sample_pubsub.launch
+
+###2. run node
+roscore
+rosrun sample_publisher sample_publisher_node
+rosrun sample_subscriber sample_subscriber_node
