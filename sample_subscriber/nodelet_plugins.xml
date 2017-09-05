@@ -1,0 +1,7 @@
+<library path="lib/libsample_subscriber">
+  <class name="sample_subscriber/sample_subscriber_nodelet" type="sample_subscriber::sample_subscriber_nodelet" base_class_type="nodelet::Nodelet">
+  <description>
+  This is my nodelet.
+  </description>
+  </class>
+</library>

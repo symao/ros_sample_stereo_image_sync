@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="nodelet" type="nodelet" name="standalone_nodelet"  args="manager" output="screen"/>
+
+  <node pkg="nodelet" type="nodelet" name="SampleNodelet" args="load example_pkg/SampleNodelet standalone_nodelet" output="screen">
+  </node>
+</launch>
